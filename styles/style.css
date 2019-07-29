@@ -1,0 +1,86 @@
+body {
+  background: green;
+}
+
+.clearfix {
+  height: 20px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: -40px;
+}
+
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.cardArea {
+  border: 1px inset white;
+  /* border-radius: 5px; */
+  height: 145px;
+  width: 110px;
+  float: left;
+}
+
+.Topheader {
+  border: 2px solid yellow;
+  height: 700px;
+  width: 1080px;
+}
+
+.header {
+  float: left;
+  margin-right: 30px;
+  height: 200px;
+  width: 110px;
+  border: 1px solid yellow;
+}
+
+.header {
+  margin-top: 300px;
+}
+
+.card {
+  border: 2px solid black;
+  border-left: 0px;
+  border-radius: 15px;
+  /* background: blue; */
+  height: 145px;
+  width: 110px;
+  position: relative;
+  margin-top: -100px;
+}
+
+.checkbox {
+  background: turquoise;
+  vertical-align: middle;
+}
+
+.todolist {
+  background: springgreen;
+  padding: 5px;
+  /* width: 100vw; */
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+
+.gu-mirror {
+  opacity: 1;
+}
+
+.dragula {
+  height: 400px;
+  border: 1px solid red;
+}
